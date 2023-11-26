@@ -69,15 +69,15 @@
 
 ### Overview (обзор ключевых метрик)
 
-![Overview](DE-101\Module1\DE - 101 Lab 1.1\Overview.jpg "Overview")
+![Overview](Module1\DE - 101 Lab 1.1\Overview.jpg "Overview")
 
 ### Product Dashboard (Продуктовые метрики)
 
-![Product_Dashboard](DE-101\Module1\DE - 101 Lab 1.1\Product_Dashboard.jpg "Product_Dashboard")
+![Product_Dashboard](Module1\DE - 101 Lab 1.1\Product_Dashboard.jpg "Product_Dashboard")
 
 ### Customer Analysis
 
-![Customer_Analysis](DE-101\Module1\DE - 101 Lab 1.1\Customer_Analysis.jpg "Customer_Analysis")
+![Customer_Analysis](Module1\DE - 101 Lab 1.1\Customer_Analysis.jpg "Customer_Analysis")
 
 ### Полезные материалы
 * [Алгоритм проектирования дашборда](https://youtu.be/xSp5ykKcQho) - общие правила проектирования высококачественных дашбордов
