@@ -67,6 +67,12 @@
 
 ## В результате у меня получилось 3 dashboards
 
+Сам файл Power BI .pbix
+https://github.com/SainSinner/DE-101/blob/8f592a6d9455e959fa60be3069ee334d29905f60/Module1/DE%20-%20101%20Lab%201.1/My_dashboard.pbix
+
+PDF файл
+https://github.com/SainSinner/DE-101/blob/8f592a6d9455e959fa60be3069ee334d29905f60/Module1/DE%20-%20101%20Lab%201.1/My_dashboard.pdf
+
 ### Overview (обзор ключевых метрик)
 
 ![Overview](https://github.com/SainSinner/DE-101/blob/2b897c651423798cafa0a87d6859033f99a3b5ac/Module1/DE%20-%20101%20Lab%201.1/Overview.jpg)
