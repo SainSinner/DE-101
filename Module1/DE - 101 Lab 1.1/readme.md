@@ -69,15 +69,15 @@
 
 ### Overview (обзор ключевых метрик)
 
-![Overview](Module1\DE - 101 Lab 1.1\Overview.jpg "Overview")
+![Overview](https://github.com/SainSinner/DE-101/blob/2b897c651423798cafa0a87d6859033f99a3b5ac/Module1/DE%20-%20101%20Lab%201.1/Overview.jpg)
 
 ### Product Dashboard (Продуктовые метрики)
 
-![Product_Dashboard](Module1\DE - 101 Lab 1.1\Product_Dashboard.jpg "Product_Dashboard")
+![Product_Dashboard](https://github.com/SainSinner/DE-101/blob/2b897c651423798cafa0a87d6859033f99a3b5ac/Module1/DE%20-%20101%20Lab%201.1/Product_Dashboard.jpg)
 
 ### Customer Analysis
 
-![Customer_Analysis](Module1\DE - 101 Lab 1.1\Customer_Analysis.jpg "Customer_Analysis")
+![Customer_Analysis](https://github.com/SainSinner/DE-101/blob/2b897c651423798cafa0a87d6859033f99a3b5ac/Module1/DE%20-%20101%20Lab%201.1/Customer_Analysis.jpg)
 
 ### Полезные материалы
 * [Алгоритм проектирования дашборда](https://youtu.be/xSp5ykKcQho) - общие правила проектирования высококачественных дашбордов
