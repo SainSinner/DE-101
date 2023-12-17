@@ -1,0 +1,5 @@
+user1
+3seww_EcJv!.vce
+
+jdbc:postgresql://rc1d-gvhkyxii714rctcc.mdb.yandexcloud.net:6432/db1
+jdbc:postgresql://rc1d-gvhkyxii714rctcc.mdb.yandexcloud.net:6432/db2

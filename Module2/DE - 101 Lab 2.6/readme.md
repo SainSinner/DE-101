@@ -1,0 +1,1 @@
+1. Создал dashbord в yandex DataLens согласно заданию из первого модуля https://datalens.yandex.ru/sgynicqyie3mh-db2-dashbord
