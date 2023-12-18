@@ -17,30 +17,57 @@ from
 dw.sales_fact;
 
 --Profit per Order
-select dw.sales_fact.order_id, SUM(dw.sales_fact.profit) as Profit_per_Order
-from
-dw.sales_fact
-group by dw.sales_fact.order_id;
+SELECT t1.order_id AS res_0, sum(t1.profit) AS res_1, t1.profit AS res_2
+FROM db2.dw.sales_fact AS t1
+GROUP BY res_0, res_2
+ORDER BY res_2 DESC NULLS LAST, res_0 ASC NULLS FIRST
+LIMIT 100 OFFSET 0;
 
 --Sales per Customer
-select orders.customer_id , SUM(orders.sales) as Sales_per_Customer
-from
-orders
-group by orders.customer_id;
+SELECT t5.customer_name AS res_0, sum(t1.sales) AS res_1, t1.sales AS res_2
+FROM db2.dw.sales_fact AS t1 JOIN db2.dw.customer_dim AS t5 ON t1.cust_id = t5.cust_id
+GROUP BY res_0, res_2
+ORDER BY res_2 DESC NULLS LAST, res_0 ASC NULLS FIRST
+LIMIT 100 OFFSET 0;
 
 --Avg. Discount
-select round((AVG(orders.discount)*100),2) as Avg_Discount
-from
-orders;
+SELECT ROUND(avg(t1.discount) * 100, 2) AS res_0
+FROM db2.dw.sales_fact AS t1
+LIMIT 1000001;
 
 --Monthly Sales by Segment (табличка и график)
-SELECT
-    orders.segment,
-    EXTRACT('MONTH' FROM orders.order_date) AS month,
-    SUM(orders.sales) AS sales
-FROM orders
-GROUP BY EXTRACT('MONTH' FROM orders.order_date), orders.segment
-ORDER BY month, orders.segment;
+SELECT t4.segment AS res_0, t6.month AS res_1, sum(t1.sales) AS res_2
+FROM
+db2.dw.sales_fact AS t1 JOIN db2.dw.product_dim AS t4 ON t1.prod_id = t4.prod_id
+JOIN
+db2.dw.calendar_dim AS t6
+ON t1.order_date_id = t6.dateid
+GROUP BY res_0, res_1
+ORDER BY res_0 ASC NULLS FIRST, res_1 ASC NULLS FIRST
+LIMIT 100001
+
+SELECT t4.segment AS res_0, sum(t1.sales) AS res_1
+FROM db2.dw.sales_fact AS t1 JOIN db2.dw.product_dim AS t4 ON t1.prod_id = t4.prod_id
+GROUP BY res_0
+LIMIT 100001
+
+SELECT t6.month AS res_0, sum(t1.sales) AS res_1
+FROM db2.dw.sales_fact AS t1 JOIN db2.dw.calendar_dim AS t6 ON t1.order_date_id = t6.dateid
+GROUP BY res_0
+LIMIT 100001
+
+SELECT sum(t1.sales) AS res_0
+FROM db2.dw.sales_fact AS t1
+LIMIT 100001;
+
+SELECT t6.month AS res_0, t4.segment AS res_1, sum(t1.sales) AS res_2
+FROM
+db2.dw.sales_fact AS t1 JOIN db2.dw.product_dim AS t4 ON t1.prod_id = t4.prod_id
+JOIN
+db2.dw.calendar_dim AS t6
+ON t1.order_date_id = t6.dateid
+GROUP BY res_0, res_1
+LIMIT 1000001;
 
 --Monthly Sales by Product Category (табличка и график)
 SELECT
@@ -52,39 +79,48 @@ GROUP BY month, orders.category
 ORDER BY month, orders.category;
 
 --Sales by Product Category over time (Продажи по категориям)
-SELECT
-    orders.category,
-    SUM(orders.sales) AS sales
-FROM orders
-GROUP BY orders.category
-ORDER BY orders.category;
+SELECT t4.category AS res_0, t6.month AS res_1, sum(t1.sales) AS res_2
+FROM
+db2.dw.sales_fact AS t1 JOIN db2.dw.product_dim AS t4 ON t1.prod_id = t4.prod_id
+JOIN
+db2.dw.calendar_dim AS t6
+ON t1.order_date_id = t6.dateid
+GROUP BY res_0, res_1
+ORDER BY res_0 ASC NULLS FIRST, res_1 ASC NULLS FIRST
+LIMIT 100001
 
---Sales and Profit by Customer
-SELECT
-    orders.customer_id,
-    orders.customer_name,
-    ROUND(SUM(orders.sales),2) AS sales,
-    ROUND(SUM(orders.profit),2) AS profit
-FROM orders
-GROUP BY orders.customer_id, orders.customer_name
-ORDER BY profit DESC;
+SELECT t4.category AS res_0, sum(t1.sales) AS res_1
+FROM db2.dw.sales_fact AS t1 JOIN db2.dw.product_dim AS t4 ON t1.prod_id = t4.prod_id
+GROUP BY res_0
+LIMIT 100001
+
+SELECT t6.month AS res_0, sum(t1.sales) AS res_1
+FROM db2.dw.sales_fact AS t1 JOIN db2.dw.calendar_dim AS t6 ON t1.order_date_id = t6.dateid
+GROUP BY res_0
+LIMIT 100001
+
+SELECT sum(t1.sales) AS res_0
+FROM db2.dw.sales_fact AS t1
+LIMIT 100001;
+
+SELECT t6.month AS res_0, t4.category AS res_1, sum(t1.sales) AS res_2
+FROM
+db2.dw.sales_fact AS t1 JOIN db2.dw.product_dim AS t4 ON t1.prod_id = t4.prod_id
+JOIN
+db2.dw.calendar_dim AS t6
+ON t1.order_date_id = t6.dateid
+GROUP BY res_0, res_1
+LIMIT 1000001;
 
 --Customer Ranking
-SELECT
-    orders.customer_id,
-    orders.customer_name,
-    ROUND(SUM(orders.sales),2) AS sales,
-    ROUND(SUM(orders.profit),2) AS profit
-FROM orders
-GROUP BY orders.customer_id, orders.customer_name
-ORDER BY sales DESC;
+SELECT t5.customer_name AS res_0, sum(t1.sales) AS res_1, sum(t1.profit) AS res_2, t1.sales AS res_3
+FROM db2.dw.sales_fact AS t1 JOIN db2.dw.customer_dim AS t5 ON t1.cust_id = t5.cust_id
+GROUP BY res_0, res_3
+ORDER BY res_3 DESC NULLS LAST, res_0 ASC NULLS FIRST
+LIMIT 100 OFFSET 0;
 
---Sales per region
-SELECT
-    orders.region,
-    people.person,
-    ROUND(SUM(orders.sales),2) AS sales
-FROM orders
-INNER JOIN people ON orders.region = people.region
-GROUP BY orders.region, people.person
-ORDER BY sales DESC;
+--Sales per state
+SELECT t3.state AS res_0, sum(t1.sales) AS res_1
+FROM db2.dw.sales_fact AS t1 JOIN db2.dw.geo_dim AS t3 ON t1.geo_id = t3.geo_id
+GROUP BY res_0
+LIMIT 1000001;
