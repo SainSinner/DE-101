@@ -4,10 +4,10 @@
 3. Подключился из DBeaver и DataGrip к хосту.
 4. Создал схемы dw скриптом и stg путем переноса ранее созданной orders в неё.
 
--- Ниже мини скрипт для копирвоания таблицы в схему stg.
+**Ниже мини скрипт для копирвоания таблицы в схему stg.**
 
-create table stg.orders (like public.orders including all);
-
-insert into stg.orders
-select *
-from public.orders;
+      create table stg.orders (like public.orders including all);
+      
+      insert into stg.orders
+      select *
+      from public.orders;
