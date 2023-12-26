@@ -1,0 +1,1 @@
+"D:\pdi-ce-9.4.0.0-343\data-integration\Kitchen.bat" /file:"D:\Module4\introduction_pentaho\my_files\final_job.kjb" /level:Basic

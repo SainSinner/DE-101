@@ -1,0 +1,225 @@
+Order_ID;Order_Date;Ship_Date;Ship_Mode;Customer_ID;Customer_Name;Segment;Country;City;State;Postal_Code;Region;Product_ID;Sales;Quantity;Discount;Profit;Person
+CA-2016-100363;08/04/2016;15/04/2016;Standard Class;JM-15655;Jim Mitchum;Corporate;USA;Glend&ale;Arizona;85301;West;OFF-FA-10000611;2.368;2;0.2;0.8288;Anna Andreadi
+CA-2016-100363;08/04/2016;15/04/2016;Standard Class;JM-15655;Jim Mitchum;Corporate;USA;Glend&ale;Arizona;85301;West;OFF-PA-10004733;19.008;3;0.2;6.8904;Anna Andreadi
+CA-2016-101175;09/12/2016;14/12/2016;Standard Class;DM-12955;Dario Medina;Corporate;USA;Mes&a;Arizona;85204;West;OFF-ST-10004950;100.704;6;0.2;-1.2588;Anna Andreadi
+CA-2016-106376;05/12/2016;10/12/2016;Standard Class;BS-11590;Brendan Sweed;Corporate;USA;Gil?bert;Arizona;85234;West;OFF-AR-10002671;1113.024;8;0.2;111.3024;Anna Andreadi
+CA-2016-106376;05/12/2016;10/12/2016;Standard Class;BS-11590;Brendan Sweed;Corporate;USA;Gil?bert;Arizona;85234;West;TEC-PH-10002726;167.968;4;0.2;62.988;Anna Andreadi
+CA-2016-108189;02/10/2016;05/10/2016;First Class;ES-14080;Erin Smith;Corporate;USA;Tempe;Arizona;85281;West;OFF-PA-10001838;9.408;2;0.2;3.4104;Anna Andreadi
+CA-2016-108189;02/10/2016;05/10/2016;First Class;ES-14080;Erin Smith;Corporate;USA;Tempe;Arizona;85281;West;OFF-FA-10000735;4.672;2;0.2;1.46;Anna Andreadi
+CA-2016-108189;02/10/2016;05/10/2016;First Class;ES-14080;Erin Smith;Corporate;USA;Tempe;Arizona;85281;West;TEC-PH-10001760;318.4;2;0.2;107.46;Anna Andreadi
+CA-2016-108189;02/10/2016;05/10/2016;First Class;ES-14080;Erin Smith;Corporate;USA;Tempe;Arizona;85281;West;OFF-EN-10004846;12.768;6;0.2;4.6284;Anna Andreadi
+CA-2016-108189;02/10/2016;05/10/2016;First Class;ES-14080;Erin Smith;Corporate;USA;Tempe;Arizona;85281;West;OFF-SU-10003567;15.36;2;0.2;-3.264;Anna Andreadi
+CA-2016-108189;02/10/2016;05/10/2016;First Class;ES-14080;Erin Smith;Corporate;USA;Tempe;Arizona;85281;West;TEC-PH-10001557;230.376;3;0.2;20.1579;Anna Andreadi
+CA-2016-108189;02/10/2016;05/10/2016;First Class;ES-14080;Erin Smith;Corporate;USA;Tempe;Arizona;85281;West;TEC-AC-10003038;7.16;1;0.2;-0.0895;Anna Andreadi
+CA-2016-123295;18/07/2016;18/07/2016;Same Day;AH-10120;Adrian Hane;Home Office;USA;Tucson;Arizona;85705;West;FUR-CH-10002372;259.136;4;0.2;-25.9136;Anna Andreadi
+CA-2016-124079;13/12/2016;17/12/2016;Standard Class;RF-19345;Randy Ferguson;Corporate;USA;Phoenix;Arizona;85023;West;FUR-FU-10002553;87.96;3;0.2;7.6965;Anna Andreadi
+CA-2016-124079;13/12/2016;17/12/2016;Standard Class;RF-19345;Randy Ferguson;Corporate;USA;Phoenix;Arizona;85023;West;OFF-BI-10002103;5.214;2;0.7;-4.1712;Anna Andreadi
+CA-2016-128986;03/08/2016;05/08/2016;Second Class;GH-14410;Gary Hansen;Home Office;USA;Glend&ale;Arizona;85301;West;OFF-PA-10001289;93.024;3;0.2;33.7212;Anna Andreadi
+CA-2016-133389;22/06/2016;22/06/2016;Same Day;TB-21280;Toby Braunhardt;Consumer;USA;Phoenix;Arizona;85023;West;OFF-BI-10001553;8.226;3;0.7;-6.0324;Anna Andreadi
+CA-2016-138177;19/09/2016;24/09/2016;Standard Class;ND-18460;Neil Ducich;Corporate;USA;Ch&andler;Arizona;85224;West;FUR-TA-10004607;73.915;1;0.5;-45.8273;Anna Andreadi
+CA-2016-138681;20/12/2016;22/12/2016;First Class;CT-11995;Carol Triggs;Consumer;USA;Tucson;Arizona;85705;West;FUR-FU-10001876;51.968;2;0.2;10.3936;Anna Andreadi
+CA-2016-138681;20/12/2016;22/12/2016;First Class;CT-11995;Carol Triggs;Consumer;USA;Tucson;Arizona;85705;West;TEC-AC-10003628;71.976;3;0.2;21.5928;Anna Andreadi
+CA-2016-138681;20/12/2016;22/12/2016;First Class;CT-11995;Carol Triggs;Consumer;USA;Tucson;Arizona;85705;West;FUR-CH-10004860;242.352;3;0.2;-42.4116;Anna Andreadi
+CA-2016-138681;20/12/2016;22/12/2016;First Class;CT-11995;Carol Triggs;Consumer;USA;Tucson;Arizona;85705;West;OFF-PA-10000357;221.92;5;0.2;77.672;Anna Andreadi
+CA-2016-138681;20/12/2016;22/12/2016;First Class;CT-11995;Carol Triggs;Consumer;USA;Tucson;Arizona;85705;West;OFF-PA-10003270;8.448;2;0.2;2.64;Anna Andreadi
+CA-2016-140039;13/09/2016;17/09/2016;Standard Class;ON-18715;Odella Nelson;Corporate;USA;Tempe;Arizona;85281;West;OFF-ST-10001034;79.4;5;0.2;5.955;Anna Andreadi
+CA-2016-146591;19/01/2016;20/01/2016;First Class;TS-21340;Toby Swindell;Consumer;USA;Scottsd&ale;Arizona;85254;West;OFF-BI-10003676;32.34;10;0.7;-23.716;Anna Andreadi
+CA-2016-146591;19/01/2016;20/01/2016;First Class;TS-21340;Toby Swindell;Consumer;USA;Scottsd&ale;Arizona;85254;West;OFF-PA-10000659;56.064;4;0.2;19.6224;Anna Andreadi
+CA-2016-146591;19/01/2016;20/01/2016;First Class;TS-21340;Toby Swindell;Consumer;USA;Scottsd&ale;Arizona;85254;West;OFF-EN-10002504;108.72;5;0.2;36.693;Anna Andreadi
+CA-2016-146591;19/01/2016;20/01/2016;First Class;TS-21340;Toby Swindell;Consumer;USA;Scottsd&ale;Arizona;85254;West;FUR-BO-10001972;181.47;5;0.7;-320.597;Anna Andreadi
+CA-2016-146843;30/11/2016;06/12/2016;Standard Class;PB-19150;Philip Brown;Consumer;USA;&avond&ale;Arizona;85323;West;OFF-SU-10001664;47.992;7;0.2;3.5994;Anna Andreadi
+CA-2016-146843;30/11/2016;06/12/2016;Standard Class;PB-19150;Philip Brown;Consumer;USA;&avond&ale;Arizona;85323;West;TEC-AC-10002550;102.24;4;0.2;-16.614;Anna Andreadi
+CA-2016-148040;22/03/2016;26/03/2016;Standard Class;BF-11275;Beth Fritzler;Corporate;USA;Tucson;Arizona;85705;West;OFF-PA-10002581;74.352;3;0.2;23.235;Anna Andreadi
+CA-2016-148040;22/03/2016;26/03/2016;Standard Class;BF-11275;Beth Fritzler;Corporate;USA;Tucson;Arizona;85705;West;FUR-CH-10001482;314.352;3;0.2;-35.3646;Anna Andreadi
+CA-2016-148383;27/12/2016;31/12/2016;Standard Class;RP-19390;Resi Pцlking;Consumer;USA;Phoenix;Arizona;85023;West;OFF-BI-10003650;946.764;6;0.7;-694.2936;Anna Andreadi
+CA-2016-150329;10/10/2016;14/10/2016;Standard Class;SD-20485;Shirley Daniels;Home Office;USA;Phoenix;Arizona;85023;West;FUR-FU-10003724;46.872;7;0.2;3.5154;Anna Andreadi
+CA-2016-151708;08/08/2016;14/08/2016;Standard Class;MB-17305;Maria Bertelson;Consumer;USA;Glend&ale;Arizona;85301;West;FUR-FU-10001602;121.376;4;0.2;-3.0344;Anna Andreadi
+CA-2016-151708;08/08/2016;14/08/2016;Standard Class;MB-17305;Maria Bertelson;Consumer;USA;Glend&ale;Arizona;85301;West;TEC-AC-10001767;95.976;3;0.2;-10.7973;Anna Andreadi
+CA-2016-159625;23/11/2016;28/11/2016;Standard Class;SM-20005;Sally Matthias;Consumer;USA;Scottsd&ale;Arizona;85254;West;OFF-EN-10002621;23.472;3;0.2;8.802;Anna Andreadi
+CA-2016-159814;24/06/2016;28/06/2016;Standard Class;LP-17080;Liz Pelletier;Consumer;USA;Tucson;Arizona;85705;West;FUR-FU-10001731;4.272;2;0.2;0.9612;Anna Andreadi
+CA-2016-161249;09/08/2016;13/08/2016;Standard Class;RD-19720;Roger Demir;Consumer;USA;Phoenix;Arizona;85023;West;OFF-FA-10004838;4.464;3;0.2;-0.9486;Anna Andreadi
+CA-2016-161249;09/08/2016;13/08/2016;Standard Class;RD-19720;Roger Demir;Consumer;USA;Phoenix;Arizona;85023;West;OFF-BI-10001097;9.345;5;0.7;-6.5415;Anna Andreadi
+CA-2017-100216;13/04/2017;14/04/2017;First Class;HJ-14875;Heather Jas;Home Office;USA;Mes&a;Arizona;85204;West;OFF-PA-10000788;31.104;6;0.2;10.8864;Anna Andreadi
+CA-2017-100216;13/04/2017;14/04/2017;First Class;HJ-14875;Heather Jas;Home Office;USA;Mes&a;Arizona;85204;West;OFF-PA-10002968;54.816;3;0.2;17.8152;Anna Andreadi
+CA-2017-105312;06/11/2017;09/11/2017;First Class;MT-17815;Meg Tillman;Consumer;USA;Scottsd&ale;Arizona;85254;West;OFF-EN-10002600;7.08;3;0.2;2.478;Anna Andreadi
+CA-2017-105312;06/11/2017;09/11/2017;First Class;MT-17815;Meg Tillman;Consumer;USA;Scottsd&ale;Arizona;85254;West;OFF-BI-10002049;4.401;3;0.7;-3.5208;Anna Andreadi
+CA-2017-112144;28/06/2017;02/07/2017;Standard Class;CY-12745;Craig Yedwab;Corporate;USA;Gil?bert;Arizona;85234;West;OFF-LA-10000443;5.904;2;0.2;1.9926;Anna Andreadi
+CA-2017-112144;28/06/2017;02/07/2017;Standard Class;CY-12745;Craig Yedwab;Corporate;USA;Gil?bert;Arizona;85234;West;FUR-FU-10004306;621.76;4;0.2;46.632;Anna Andreadi
+CA-2017-113215;03/09/2017;08/09/2017;Standard Class;CP-12085;Cathy Prescott;Corporate;USA;Tucson;Arizona;85705;West;FUR-FU-10002937;238.152;3;0.2;89.307;Anna Andreadi
+CA-2017-119627;17/08/2017;23/08/2017;Standard Class;SC-20725;Steven Cartwright;Consumer;USA;Peori&a;Arizona;85345;West;TEC-AC-10002217;30.08;2;0.2;-5.264;Anna Andreadi
+CA-2017-119627;17/08/2017;23/08/2017;Standard Class;SC-20725;Steven Cartwright;Consumer;USA;Peori&a;Arizona;85345;West;OFF-PA-10001937;36.288;7;0.2;12.7008;Anna Andreadi
+CA-2017-119627;17/08/2017;23/08/2017;Standard Class;SC-20725;Steven Cartwright;Consumer;USA;Peori&a;Arizona;85345;West;OFF-AR-10000203;10.272;3;0.2;1.1556;Anna Andreadi
+CA-2017-119627;17/08/2017;23/08/2017;Standard Class;SC-20725;Steven Cartwright;Consumer;USA;Peori&a;Arizona;85345;West;TEC-AC-10001142;252.8;4;0.2;-31.6;Anna Andreadi
+CA-2017-120103;24/12/2017;29/12/2017;Standard Class;MS-17365;Maribeth Schnelling;Consumer;USA;Phoenix;Arizona;85023;West;OFF-PA-10001295;106.232;7;0.2;37.1812;Anna Andreadi
+CA-2017-120103;24/12/2017;29/12/2017;Standard Class;MS-17365;Maribeth Schnelling;Consumer;USA;Phoenix;Arizona;85023;West;TEC-PH-10002170;111.984;2;0.2;11.1984;Anna Andreadi
+CA-2017-120103;24/12/2017;29/12/2017;Standard Class;MS-17365;Maribeth Schnelling;Consumer;USA;Phoenix;Arizona;85023;West;FUR-FU-10002885;7.712;2;0.2;1.7352;Anna Andreadi
+CA-2017-122287;18/06/2017;23/06/2017;Standard Class;SN-20560;Skye Norling;Home Office;USA;Peori&a;Arizona;85345;West;OFF-PA-10001661;11.952;3;0.2;4.3326;Anna Andreadi
+CA-2017-122287;18/06/2017;23/06/2017;Standard Class;SN-20560;Skye Norling;Home Office;USA;Peori&a;Arizona;85345;West;OFF-BI-10004656;4.536;7;0.7;-3.3264;Anna Andreadi
+CA-2017-122287;18/06/2017;23/06/2017;Standard Class;SN-20560;Skye Norling;Home Office;USA;Peori&a;Arizona;85345;West;OFF-BI-10003707;9.156;2;0.7;-6.104;Anna Andreadi
+CA-2017-122287;18/06/2017;23/06/2017;Standard Class;SN-20560;Skye Norling;Home Office;USA;Peori&a;Arizona;85345;West;FUR-FU-10004973;75.36;5;0.2;20.724;Anna Andreadi
+CA-2017-124800;26/09/2017;30/09/2017;Standard Class;RW-19540;Rick Wilson;Corporate;USA;Mes&a;Arizona;85204;West;OFF-PA-10000501;86.272;4;0.2;31.2736;Anna Andreadi
+CA-2017-124800;26/09/2017;30/09/2017;Standard Class;RW-19540;Rick Wilson;Corporate;USA;Mes&a;Arizona;85204;West;OFF-BI-10000778;72.588;2;0.7;-48.392;Anna Andreadi
+CA-2017-124800;26/09/2017;30/09/2017;Standard Class;RW-19540;Rick Wilson;Corporate;USA;Mes&a;Arizona;85204;West;OFF-AP-10004980;60.672;2;0.2;14.4096;Anna Andreadi
+CA-2017-124800;26/09/2017;30/09/2017;Standard Class;RW-19540;Rick Wilson;Corporate;USA;Mes&a;Arizona;85204;West;OFF-BI-10003984;77.031;9;0.7;-59.0571;Anna Andreadi
+CA-2017-124800;26/09/2017;30/09/2017;Standard Class;RW-19540;Rick Wilson;Corporate;USA;Mes&a;Arizona;85204;West;OFF-ST-10000798;119.904;6;0.2;-1.4988;Anna Andreadi
+CA-2017-124800;26/09/2017;30/09/2017;Standard Class;RW-19540;Rick Wilson;Corporate;USA;Mes&a;Arizona;85204;West;TEC-PH-10001750;263.96;5;0.2;23.0965;Anna Andreadi
+CA-2017-124800;26/09/2017;30/09/2017;Standard Class;RW-19540;Rick Wilson;Corporate;USA;Mes&a;Arizona;85204;West;OFF-ST-10002743;363.648;4;0.2;-86.3664;Anna Andreadi
+CA-2017-127754;26/07/2017;31/07/2017;Standard Class;CK-12760;Cyma Kinney;Corporate;USA;Glend&ale;Arizona;85301;West;FUR-CH-10003199;266.352;3;0.2;13.3176;Anna Andreadi
+CA-2017-129896;15/06/2017;20/06/2017;Standard Class;PF-19120;Peter Fuller;Consumer;USA;Gil?bert;Arizona;85234;West;OFF-PA-10002245;9.568;2;0.2;2.99;Anna Andreadi
+CA-2017-129896;15/06/2017;20/06/2017;Standard Class;PF-19120;Peter Fuller;Consumer;USA;Gil?bert;Arizona;85234;West;OFF-ST-10004804;82.368;2;0.2;-19.5624;Anna Andreadi
+CA-2017-129896;15/06/2017;20/06/2017;Standard Class;PF-19120;Peter Fuller;Consumer;USA;Gil?bert;Arizona;85234;West;FUR-FU-10004904;364.704;6;0.2;-36.4704;Anna Andreadi
+CA-2017-129896;15/06/2017;20/06/2017;Standard Class;PF-19120;Peter Fuller;Consumer;USA;Gil?bert;Arizona;85234;West;FUR-FU-10002396;40.256;4;0.2;11.0704;Anna Andreadi
+CA-2017-133837;13/04/2017;18/04/2017;Standard Class;TH-21100;Thea Hendricks;Consumer;USA;Glend&ale;Arizona;85301;West;OFF-ST-10000344;10.744;1;0.2;0.8058;Anna Andreadi
+CA-2017-135538;24/12/2017;28/12/2017;Standard Class;HR-14830;Harold Ryan;Corporate;USA;Gil?bert;Arizona;85234;West;FUR-CH-10004287;883.84;4;0.2;99.432;Anna Andreadi
+CA-2017-135727;11/05/2017;16/05/2017;Second Class;PS-18970;Paul Stevenson;Home Office;USA;Phoenix;Arizona;85023;West;FUR-CH-10004540;191.968;7;0.2;16.7972;Anna Andreadi
+CA-2017-143364;14/07/2017;19/07/2017;Second Class;TG-21310;Toby Gnade;Consumer;USA;Mes&a;Arizona;85204;West;OFF-ST-10002743;272.736;3;0.2;-64.7748;Anna Andreadi
+CA-2017-143364;14/07/2017;19/07/2017;Second Class;TG-21310;Toby Gnade;Consumer;USA;Mes&a;Arizona;85204;West;OFF-PA-10001846;18.496;4;0.2;6.7048;Anna Andreadi
+CA-2017-143364;14/07/2017;19/07/2017;Second Class;TG-21310;Toby Gnade;Consumer;USA;Mes&a;Arizona;85204;West;FUR-CH-10004287;441.92;2;0.2;49.716;Anna Andreadi
+CA-2017-143364;14/07/2017;19/07/2017;Second Class;TG-21310;Toby Gnade;Consumer;USA;Mes&a;Arizona;85204;West;FUR-BO-10001608;127.764;6;0.7;-191.646;Anna Andreadi
+CA-2017-144806;06/12/2017;11/12/2017;Standard Class;GH-14425;Gary Hwang;Consumer;USA;Tucson;Arizona;85705;West;FUR-FU-10002253;206.112;6;0.2;48.9516;Anna Andreadi
+CA-2017-144806;06/12/2017;11/12/2017;Standard Class;GH-14425;Gary Hwang;Consumer;USA;Tucson;Arizona;85705;West;OFF-PA-10002586;19.92;5;0.2;6.723;Anna Andreadi
+CA-2017-144806;06/12/2017;11/12/2017;Standard Class;GH-14425;Gary Hwang;Consumer;USA;Tucson;Arizona;85705;West;OFF-PA-10003039;198.272;8;0.2;61.96;Anna Andreadi
+CA-2017-144806;06/12/2017;11/12/2017;Standard Class;GH-14425;Gary Hwang;Consumer;USA;Tucson;Arizona;85705;West;OFF-ST-10004804;247.104;6;0.2;-58.6872;Anna Andreadi
+CA-2017-144806;06/12/2017;11/12/2017;Standard Class;GH-14425;Gary Hwang;Consumer;USA;Tucson;Arizona;85705;West;OFF-AR-10004042;86.304;6;0.2;9.7092;Anna Andreadi
+CA-2017-147816;24/09/2017;26/09/2017;Second Class;CM-11935;Carlos Meador;Consumer;USA;Tucson;Arizona;85705;West;TEC-PH-10003095;35.12;2;0.2;13.17;Anna Andreadi
+CA-2017-149384;10/07/2017;10/07/2017;Same Day;EH-13945;Eric Hoffmann;Consumer;USA;Tempe;Arizona;85281;West;OFF-BI-10003196;3.366;3;0.7;-2.244;Anna Andreadi
+CA-2017-154795;20/12/2017;24/12/2017;Standard Class;GZ-14470;Gary Zandusky;Consumer;USA;?bullhe&ad City;Arizona;86442;West;OFF-EN-10003068;7.92;1;0.2;2.772;Anna Andreadi
+CA-2017-154795;20/12/2017;24/12/2017;Standard Class;GZ-14470;Gary Zandusky;Consumer;USA;?bullhe&ad City;Arizona;86442;West;FUR-FU-10002088;14.368;2;0.2;3.9512;Anna Andreadi
+CA-2017-156146;26/10/2017;30/10/2017;Second Class;AG-10495;Andrew Gjertsen;Corporate;USA;Peori&a;Arizona;85345;West;TEC-PH-10001700;105.584;2;0.2;9.2386;Anna Andreadi
+CA-2017-156146;26/10/2017;30/10/2017;Second Class;AG-10495;Andrew Gjertsen;Corporate;USA;Peori&a;Arizona;85345;West;TEC-PH-10001527;68.72;2;0.2;-14.603;Anna Andreadi
+CA-2018-103947;01/04/2018;08/04/2018;Standard Class;BB-10990;Barry Blumstein;Corporate;USA;Sierr&a Vist&a;Arizona;85635;West;OFF-FA-10003112;31.56;5;0.2;9.8625;Anna Andreadi
+CA-2018-103947;01/04/2018;08/04/2018;Standard Class;BB-10990;Barry Blumstein;Corporate;USA;Sierr&a Vist&a;Arizona;85635;West;OFF-AP-10002350;30.144;2;0.2;3.0144;Anna Andreadi
+CA-2018-106306;08/03/2018;08/03/2018;Same Day;PG-18820;Patrick Gardner;Consumer;USA;Glend&ale;Arizona;85301;West;OFF-BI-10003676;9.702;3;0.7;-7.1148;Anna Andreadi
+CA-2018-106621;29/09/2018;01/10/2018;Second Class;DM-12955;Dario Medina;Corporate;USA;Yum&a;Arizona;85364;West;OFF-AR-10002375;10.496;4;0.2;1.1808;Anna Andreadi
+CA-2018-108224;14/05/2018;14/05/2018;Same Day;TH-21235;Tiffany House;Corporate;USA;Yum&a;Arizona;85364;West;TEC-AC-10003832;185.528;7;0.2;48.7011;Anna Andreadi
+CA-2018-108959;10/03/2018;14/03/2018;Second Class;MH-17785;Maya Herman;Corporate;USA;Glend&ale;Arizona;85301;West;OFF-ST-10001272;104.696;1;0.2;6.5435;Anna Andreadi
+CA-2018-109827;25/12/2018;01/01/2019;Standard Class;LW-16825;Laurel Workman;Corporate;USA;Phoenix;Arizona;85023;West;FUR-TA-10002607;35.445;1;0.5;-24.1026;Anna Andreadi
+CA-2018-109827;25/12/2018;01/01/2019;Standard Class;LW-16825;Laurel Workman;Corporate;USA;Phoenix;Arizona;85023;West;TEC-MA-10003356;269.97;2;0.7;-386.957;Anna Andreadi
+CA-2018-109827;25/12/2018;01/01/2019;Standard Class;LW-16825;Laurel Workman;Corporate;USA;Phoenix;Arizona;85023;West;TEC-AC-10002217;45.12;3;0.2;-7.896;Anna Andreadi
+CA-2018-109827;25/12/2018;01/01/2019;Standard Class;LW-16825;Laurel Workman;Corporate;USA;Phoenix;Arizona;85023;West;TEC-AC-10004353;100.8;2;0.2;21.42;Anna Andreadi
+CA-2018-109827;25/12/2018;01/01/2019;Standard Class;LW-16825;Laurel Workman;Corporate;USA;Phoenix;Arizona;85023;West;FUR-CH-10004754;47.968;2;0.2;4.1972;Anna Andreadi
+CA-2018-109869;22/04/2018;29/04/2018;Standard Class;TN-21040;Tanja Norvell;Home Office;USA;Phoenix;Arizona;85023;West;FUR-FU-10000023;23.56;5;0.2;7.068;Anna Andreadi
+CA-2018-109869;22/04/2018;29/04/2018;Standard Class;TN-21040;Tanja Norvell;Home Office;USA;Phoenix;Arizona;85023;West;FUR-TA-10001889;1272.63;6;0.5;-814.4832;Anna Andreadi
+CA-2018-109869;22/04/2018;29/04/2018;Standard Class;TN-21040;Tanja Norvell;Home Office;USA;Phoenix;Arizona;85023;West;OFF-BI-10000315;28.485;5;0.7;-20.889;Anna Andreadi
+CA-2018-109869;22/04/2018;29/04/2018;Standard Class;TN-21040;Tanja Norvell;Home Office;USA;Phoenix;Arizona;85023;West;OFF-SU-10003505;185.376;2;0.2;-34.758;Anna Andreadi
+CA-2018-109869;22/04/2018;29/04/2018;Standard Class;TN-21040;Tanja Norvell;Home Office;USA;Phoenix;Arizona;85023;West;OFF-AP-10002578;78.272;2;0.2;5.8704;Anna Andreadi
+CA-2018-112669;14/04/2018;14/04/2018;Same Day;KT-16465;Kean Takahito;Consumer;USA;Glend&ale;Arizona;85301;West;FUR-CH-10004086;933.536;4;0.2;105.0228;Anna Andreadi
+CA-2018-112669;14/04/2018;14/04/2018;Same Day;KT-16465;Kean Takahito;Consumer;USA;Glend&ale;Arizona;85301;West;OFF-ST-10001228;42.976;4;0.2;4.2976;Anna Andreadi
+CA-2018-114748;09/10/2018;14/10/2018;Standard Class;MZ-17335;Maria Zettner;Home Office;USA;Phoenix;Arizona;85023;West;OFF-AR-10001315;1.408;1;0.2;0.1584;Anna Andreadi
+CA-2018-114748;09/10/2018;14/10/2018;Standard Class;MZ-17335;Maria Zettner;Home Office;USA;Phoenix;Arizona;85023;West;FUR-FU-10001488;169.568;2;0.2;0;Anna Andreadi
+CA-2018-117912;04/02/2018;08/02/2018;Standard Class;TB-21520;Tracy Blumstein;Consumer;USA;Sierr&a Vist&a;Arizona;85635;West;FUR-FU-10002088;14.368;2;0.2;3.9512;Anna Andreadi
+CA-2018-118969;02/10/2018;03/10/2018;First Class;LP-17095;Liz Preis;Consumer;USA;Phoenix;Arizona;85023;West;OFF-BI-10002429;54.792;6;0.7;-40.1808;Anna Andreadi
+CA-2018-126613;10/07/2018;16/07/2018;Standard Class;AA-10375;Allen Armold;Consumer;USA;Mes&a;Arizona;85204;West;OFF-ST-10001325;16.768;2;0.2;1.4672;Anna Andreadi
+CA-2018-134222;10/07/2018;11/07/2018;Same Day;NZ-18565;Nick Zandusky;Home Office;USA;Yum&a;Arizona;85364;West;OFF-BI-10001658;44.856;6;0.7;-35.8848;Anna Andreadi
+CA-2018-134348;12/11/2018;19/11/2018;Standard Class;MS-17710;Maurice Satty;Consumer;USA;Mes&a;Arizona;85204;West;OFF-BI-10003727;6.27;5;0.7;-4.598;Anna Andreadi
+CA-2018-134348;12/11/2018;19/11/2018;Standard Class;MS-17710;Maurice Satty;Consumer;USA;Mes&a;Arizona;85204;West;OFF-BI-10004967;4.368;7;0.7;-3.3488;Anna Andreadi
+CA-2018-134348;12/11/2018;19/11/2018;Standard Class;MS-17710;Maurice Satty;Consumer;USA;Mes&a;Arizona;85204;West;TEC-AC-10003447;31.984;2;0.2;1.999;Anna Andreadi
+CA-2018-134936;19/12/2018;25/12/2018;Standard Class;ES-14080;Erin Smith;Corporate;USA;Tucson;Arizona;85705;West;FUR-TA-10001086;455.97;6;0.5;-218.8656;Anna Andreadi
+CA-2018-134936;19/12/2018;25/12/2018;Standard Class;ES-14080;Erin Smith;Corporate;USA;Tucson;Arizona;85705;West;OFF-BI-10000174;10.44;6;0.7;-7.656;Anna Andreadi
+CA-2018-134936;19/12/2018;25/12/2018;Standard Class;ES-14080;Erin Smith;Corporate;USA;Tucson;Arizona;85705;West;OFF-BI-10002103;5.214;2;0.7;-4.1712;Anna Andreadi
+CA-2018-136924;14/07/2018;17/07/2018;First Class;ES-14080;Erin Smith;Corporate;USA;Tucson;Arizona;85705;West;TEC-PH-10002262;380.864;8;0.2;38.0864;Anna Andreadi
+CA-2018-143476;11/09/2018;13/09/2018;First Class;LC-16930;Linda Cazamias;Corporate;USA;Phoenix;Arizona;85023;West;OFF-AR-10003759;2.912;2;0.2;0.91;Anna Andreadi
+CA-2018-143476;11/09/2018;13/09/2018;First Class;LC-16930;Linda Cazamias;Corporate;USA;Phoenix;Arizona;85023;West;OFF-PA-10001837;20.736;4;0.2;7.2576;Anna Andreadi
+CA-2018-143476;11/09/2018;13/09/2018;First Class;LC-16930;Linda Cazamias;Corporate;USA;Phoenix;Arizona;85023;West;OFF-PA-10001667;9.568;2;0.2;2.99;Anna Andreadi
+CA-2018-144792;30/04/2018;04/05/2018;Standard Class;KD-16615;Ken Dana;Corporate;USA;Scottsd&ale;Arizona;85254;West;FUR-FU-10002759;111.888;7;0.2;22.3776;Anna Andreadi
+CA-2018-152121;27/11/2018;29/11/2018;Second Class;CC-12670;Craig Carreira;Consumer;USA;Scottsd&ale;Arizona;85254;West;TEC-PH-10002483;271.992;1;0.2;23.7993;Anna Andreadi
+CA-2018-158834;13/03/2018;16/03/2018;First Class;TW-21025;Tamara Willingham;Home Office;USA;Scottsd&ale;Arizona;85254;West;OFF-AP-10000326;157.92;5;0.2;17.766;Anna Andreadi
+CA-2018-158834;13/03/2018;16/03/2018;First Class;TW-21025;Tamara Willingham;Home Office;USA;Scottsd&ale;Arizona;85254;West;TEC-PH-10001254;203.184;2;0.2;15.2388;Anna Andreadi
+CA-2018-161676;18/07/2018;23/07/2018;Standard Class;JP-15460;Jennifer Patt;Corporate;USA;Glend&ale;Arizona;85301;West;OFF-SU-10004782;33.8;5;0.2;4.225;Anna Andreadi
+CA-2018-162110;18/07/2018;22/07/2018;Standard Class;NP-18670;Nora Paige;Consumer;USA;Phoenix;Arizona;85023;West;TEC-PH-10001924;55.992;1;0.2;3.4995;Anna Andreadi
+CA-2019-102414;15/05/2019;18/05/2019;Second Class;JA-15970;Joseph Airdo;Consumer;USA;Phoenix;Arizona;85023;West;TEC-PH-10002923;29.592;1;0.2;2.5893;Anna Andreadi
+CA-2019-102414;15/05/2019;18/05/2019;Second Class;JA-15970;Joseph Airdo;Consumer;USA;Phoenix;Arizona;85023;West;OFF-BI-10004465;4.752;2;0.7;-3.168;Anna Andreadi
+CA-2019-102414;15/05/2019;18/05/2019;Second Class;JA-15970;Joseph Airdo;Consumer;USA;Phoenix;Arizona;85023;West;OFF-PA-10002333;15.552;3;0.2;5.6376;Anna Andreadi
+CA-2019-111577;16/10/2019;21/10/2019;Standard Class;AJ-10780;Anthony Jacobs;Corporate;USA;Scottsd&ale;Arizona;85254;West;OFF-PA-10000062;307.776;7;0.2;111.5688;Anna Andreadi
+CA-2019-116953;24/04/2019;25/04/2019;First Class;SV-20935;Susan Vittorini;Consumer;USA;Mes&a;Arizona;85204;West;TEC-PH-10004614;552;10;0.2;34.5;Anna Andreadi
+CA-2019-128734;24/12/2019;31/12/2019;Standard Class;JL-15175;James Lanier;Home Office;USA;Ch&andler;Arizona;85224;West;FUR-FU-10001731;8.544;4;0.2;1.9224;Anna Andreadi
+CA-2019-128734;24/12/2019;31/12/2019;Standard Class;JL-15175;James Lanier;Home Office;USA;Ch&andler;Arizona;85224;West;FUR-CH-10001394;842.376;3;0.2;105.297;Anna Andreadi
+CA-2019-129707;25/04/2019;29/04/2019;Standard Class;LH-16750;Larry Hughes;Consumer;USA;Ch&andler;Arizona;85224;West;OFF-AR-10000246;8.896;4;0.2;0.6672;Anna Andreadi
+CA-2019-134880;27/10/2019;01/11/2019;Standard Class;TW-21025;Tamara Willingham;Home Office;USA;Mes&a;Arizona;85204;West;OFF-PA-10004039;44.784;1;0.2;16.2342;Anna Andreadi
+CA-2019-134915;12/11/2019;12/11/2019;Same Day;EM-14140;Eugene Moren;Home Office;USA;Glend&ale;Arizona;85301;West;TEC-AC-10001266;41.6;4;0.2;13;Anna Andreadi
+CA-2019-134915;12/11/2019;12/11/2019;Same Day;EM-14140;Eugene Moren;Home Office;USA;Glend&ale;Arizona;85301;West;OFF-PA-10002160;23.12;5;0.2;8.381;Anna Andreadi
+CA-2019-134915;12/11/2019;12/11/2019;Same Day;EM-14140;Eugene Moren;Home Office;USA;Glend&ale;Arizona;85301;West;FUR-CH-10004875;113.888;2;0.2;9.9652;Anna Andreadi
+CA-2019-134915;12/11/2019;12/11/2019;Same Day;EM-14140;Eugene Moren;Home Office;USA;Glend&ale;Arizona;85301;West;FUR-FU-10000305;113.568;2;0.2;-5.6784;Anna Andreadi
+CA-2019-134915;12/11/2019;12/11/2019;Same Day;EM-14140;Eugene Moren;Home Office;USA;Glend&ale;Arizona;85301;West;TEC-PH-10000347;7.92;2;0.2;0.693;Anna Andreadi
+CA-2019-134915;12/11/2019;12/11/2019;Same Day;EM-14140;Eugene Moren;Home Office;USA;Glend&ale;Arizona;85301;West;TEC-PH-10001459;671.984;2;0.2;50.3988;Anna Andreadi
+CA-2019-135937;20/02/2019;27/02/2019;Standard Class;KM-16375;Katherine Murray;Home Office;USA;Gil?bert;Arizona;85234;West;TEC-PH-10004447;333.576;3;0.2;25.0182;Anna Andreadi
+CA-2019-135937;20/02/2019;27/02/2019;Standard Class;KM-16375;Katherine Murray;Home Office;USA;Gil?bert;Arizona;85234;West;TEC-AC-10001114;31.992;1;0.2;4.7988;Anna Andreadi
+CA-2019-135937;20/02/2019;27/02/2019;Standard Class;KM-16375;Katherine Murray;Home Office;USA;Gil?bert;Arizona;85234;West;OFF-ST-10000563;51.168;2;0.2;-6.396;Anna Andreadi
+CA-2019-135937;20/02/2019;27/02/2019;Standard Class;KM-16375;Katherine Murray;Home Office;USA;Gil?bert;Arizona;85234;West;OFF-EN-10004846;10.64;5;0.2;3.857;Anna Andreadi
+CA-2019-135937;20/02/2019;27/02/2019;Standard Class;KM-16375;Katherine Murray;Home Office;USA;Gil?bert;Arizona;85234;West;FUR-FU-10002253;68.704;2;0.2;16.3172;Anna Andreadi
+CA-2019-135937;20/02/2019;27/02/2019;Standard Class;KM-16375;Katherine Murray;Home Office;USA;Gil?bert;Arizona;85234;West;FUR-TA-10001039;386.91;9;0.5;-185.7168;Anna Andreadi
+CA-2019-137421;06/10/2019;11/10/2019;Standard Class;AJ-10945;Ashley Jarboe;Consumer;USA;Ch&andler;Arizona;85224;West;OFF-AR-10001761;9.344;2;0.2;1.8688;Anna Andreadi
+CA-2019-139402;09/12/2019;13/12/2019;Standard Class;NC-18535;Nick Crebassa;Corporate;USA;Phoenix;Arizona;85023;West;OFF-PA-10004359;419.4;5;0.2;146.79;Anna Andreadi
+CA-2019-139402;09/12/2019;13/12/2019;Standard Class;NC-18535;Nick Crebassa;Corporate;USA;Phoenix;Arizona;85023;West;OFF-BI-10000279;13.005;3;0.7;-9.9705;Anna Andreadi
+CA-2019-140760;02/06/2019;05/06/2019;Second Class;DO-13435;Denny Ordway;Consumer;USA;Mes&a;Arizona;85204;West;OFF-PA-10002479;25.344;6;0.2;7.92;Anna Andreadi
+CA-2019-140760;02/06/2019;05/06/2019;Second Class;DO-13435;Denny Ordway;Consumer;USA;Mes&a;Arizona;85204;West;OFF-EN-10001141;43.92;5;0.2;15.921;Anna Andreadi
+CA-2019-142909;22/12/2019;25/12/2019;Second Class;AG-10330;Alex Grayson;Consumer;USA;Mes&a;Arizona;85204;West;FUR-TA-10003008;182.55;2;0.5;-135.087;Anna Andreadi
+CA-2019-144750;21/08/2019;21/08/2019;Same Day;DL-13495;Dionis Lloyd;Corporate;USA;Ch&andler;Arizona;85224;West;OFF-PA-10003395;83.88;1;0.2;29.358;Anna Andreadi
+CA-2019-145765;28/05/2019;02/06/2019;Standard Class;CM-11815;Candace McMahon;Corporate;USA;Phoenix;Arizona;85023;West;TEC-PH-10001305;195.96;5;0.2;19.596;Anna Andreadi
+CA-2019-145765;28/05/2019;02/06/2019;Standard Class;CM-11815;Candace McMahon;Corporate;USA;Phoenix;Arizona;85023;West;OFF-PA-10001534;15.552;3;0.2;5.4432;Anna Andreadi
+CA-2019-145765;28/05/2019;02/06/2019;Standard Class;CM-11815;Candace McMahon;Corporate;USA;Phoenix;Arizona;85023;West;TEC-AC-10000844;271.968;4;0.2;54.3936;Anna Andreadi
+CA-2019-145779;06/05/2019;10/05/2019;Standard Class;DB-13615;Doug Bickford;Consumer;USA;Tucson;Arizona;85705;West;OFF-PA-10002254;84.416;4;0.2;27.4352;Anna Andreadi
+CA-2019-147767;02/12/2019;02/12/2019;Same Day;SV-20935;Susan Vittorini;Consumer;USA;Peori&a;Arizona;85345;West;OFF-BI-10001670;67.86;6;0.7;-45.24;Anna Andreadi
+CA-2019-153822;19/09/2019;25/09/2019;Standard Class;AB-10105;Adrian Barton;Consumer;USA;Phoenix;Arizona;85023;West;OFF-ST-10000321;12.624;2;0.2;-2.5248;Anna Andreadi
+CA-2019-153822;19/09/2019;25/09/2019;Standard Class;AB-10105;Adrian Barton;Consumer;USA;Phoenix;Arizona;85023;West;TEC-AC-10000109;89.584;2;0.2;4.4792;Anna Andreadi
+CA-2019-153822;19/09/2019;25/09/2019;Standard Class;AB-10105;Adrian Barton;Consumer;USA;Phoenix;Arizona;85023;West;TEC-PH-10002415;471.92;2;0.2;29.495;Anna Andreadi
+CA-2019-153822;19/09/2019;25/09/2019;Standard Class;AB-10105;Adrian Barton;Consumer;USA;Phoenix;Arizona;85023;West;OFF-BI-10001460;18.18;4;0.7;-13.938;Anna Andreadi
+CA-2019-155929;09/09/2019;13/09/2019;Standard Class;AI-10855;Arianne Irving;Consumer;USA;Glend&ale;Arizona;85301;West;OFF-PA-10000859;6.368;2;0.2;2.388;Anna Andreadi
+CA-2019-159282;16/10/2019;21/10/2019;Standard Class;GH-14410;Gary Hansen;Home Office;USA;Yum&a;Arizona;85364;West;TEC-MA-10001148;599.985;5;0.7;-479.988;Anna Andreadi
+CA-2019-159884;31/08/2019;05/09/2019;Standard Class;JF-15490;Jeremy Farry;Consumer;USA;Tempe;Arizona;85281;West;OFF-ST-10000344;10.744;1;0.2;0.8058;Anna Andreadi
+CA-2019-159884;31/08/2019;05/09/2019;Standard Class;JF-15490;Jeremy Farry;Consumer;USA;Tempe;Arizona;85281;West;OFF-FA-10000585;8.376;3;0.2;2.7222;Anna Andreadi
+CA-2019-161893;23/01/2019;27/01/2019;Standard Class;HP-14815;Harold Pawlan;Home Office;USA;Tucson;Arizona;85705;West;TEC-AC-10001874;95.984;2;0.2;11.998;Anna Andreadi
+CA-2019-161893;23/01/2019;27/01/2019;Standard Class;HP-14815;Harold Pawlan;Home Office;USA;Tucson;Arizona;85705;West;OFF-BI-10004506;4.938;2;0.7;-3.6212;Anna Andreadi
+CA-2019-163097;27/08/2019;31/08/2019;Standard Class;SF-20200;Sarah Foster;Consumer;USA;Mes&a;Arizona;85204;West;FUR-FU-10004973;120.576;8;0.2;33.1584;Anna Andreadi
+CA-2019-163692;07/09/2019;09/09/2019;First Class;Dp-13240;Dean percer;Home Office;USA;Phoenix;Arizona;85023;West;OFF-BI-10003291;7.857;3;0.7;-6.0237;Anna Andreadi
+CA-2019-169894;24/11/2019;29/11/2019;Second Class;MV-17485;Mark Van Huff;Consumer;USA;Mes&a;Arizona;85204;West;OFF-BI-10004230;20.724;2;0.7;-15.1976;Anna Andreadi
+CA-2019-169894;24/11/2019;29/11/2019;Second Class;MV-17485;Mark Van Huff;Consumer;USA;Mes&a;Arizona;85204;West;OFF-ST-10000060;415.872;8;0.2;-41.5872;Anna Andreadi
+US-2016-119137;23/07/2016;27/07/2016;Standard Class;AG-10900;Arthur Gainer;Consumer;USA;Tucson;Arizona;85705;West;OFF-BI-10001982;8.16;5;0.7;-5.712;Anna Andreadi
+US-2016-119137;23/07/2016;27/07/2016;Standard Class;AG-10900;Arthur Gainer;Consumer;USA;Tucson;Arizona;85705;West;TEC-AC-10003911;1023.936;8;0.2;179.1888;Anna Andreadi
+US-2016-119137;23/07/2016;27/07/2016;Standard Class;AG-10900;Arthur Gainer;Consumer;USA;Tucson;Arizona;85705;West;OFF-AR-10000658;9.24;1;0.2;0.924;Anna Andreadi
+US-2016-119137;23/07/2016;27/07/2016;Standard Class;AG-10900;Arthur Gainer;Consumer;USA;Tucson;Arizona;85705;West;TEC-AC-10002076;479.04;10;0.2;-29.94;Anna Andreadi
+US-2016-150532;14/07/2016;21/07/2016;Standard Class;PB-19150;Philip Brown;Consumer;USA;Phoenix;Arizona;85023;West;OFF-ST-10000760;55.92;5;0.2;6.291;Anna Andreadi
+US-2016-163797;08/04/2016;13/04/2016;Standard Class;PC-19000;Pauline Chand;Home Office;USA;Ch&andler;Arizona;85224;West;OFF-FA-10001883;49.792;8;0.2;-11.8256;Anna Andreadi
+US-2016-167262;31/10/2016;03/11/2016;Second Class;AC-10450;Amy Cox;Consumer;USA;&avond&ale;Arizona;85323;West;TEC-PH-10000486;742.336;8;0.2;83.5128;Anna Andreadi
+US-2016-169789;30/12/2016;04/01/2017;Standard Class;MF-17665;Maureen Fritzler;Corporate;USA;Phoenix;Arizona;85023;West;OFF-BI-10004600;551.985;5;0.7;-459.9875;Anna Andreadi
+US-2017-106873;24/09/2017;29/09/2017;Second Class;KM-16720;Kunst Miller;Consumer;USA;&avond&ale;Arizona;85323;West;OFF-AR-10003179;14.576;2;0.2;2.3686;Anna Andreadi
+US-2017-106873;24/09/2017;29/09/2017;Second Class;KM-16720;Kunst Miller;Consumer;USA;&avond&ale;Arizona;85323;West;TEC-AC-10002345;23.2;2;0.2;1.45;Anna Andreadi
+US-2017-106873;24/09/2017;29/09/2017;Second Class;KM-16720;Kunst Miller;Consumer;USA;&avond&ale;Arizona;85323;West;OFF-AR-10001246;16.464;7;0.2;1.8522;Anna Andreadi
+US-2017-110569;23/05/2017;30/05/2017;Standard Class;EB-13870;Emily Burns;Consumer;USA;Phoenix;Arizona;85023;West;OFF-BI-10001036;19.194;7;0.7;-12.796;Anna Andreadi
+US-2017-110569;23/05/2017;30/05/2017;Standard Class;EB-13870;Emily Burns;Consumer;USA;Phoenix;Arizona;85023;West;OFF-AP-10004708;121.792;4;0.2;13.7016;Anna Andreadi
+US-2017-128090;16/08/2017;22/08/2017;Standard Class;JM-15865;John Murray;Consumer;USA;Phoenix;Arizona;85023;West;OFF-AR-10002255;2.304;1;0.2;0.2592;Anna Andreadi
+US-2017-128090;16/08/2017;22/08/2017;Standard Class;JM-15865;John Murray;Consumer;USA;Phoenix;Arizona;85023;West;TEC-PH-10002624;1879.96;5;0.2;211.4955;Anna Andreadi
+US-2017-128090;16/08/2017;22/08/2017;Standard Class;JM-15865;John Murray;Consumer;USA;Phoenix;Arizona;85023;West;OFF-PA-10001878;313.024;8;0.2;105.6456;Anna Andreadi
+US-2017-128090;16/08/2017;22/08/2017;Standard Class;JM-15865;John Murray;Consumer;USA;Phoenix;Arizona;85023;West;OFF-LA-10000452;5.04;2;0.2;1.764;Anna Andreadi
+US-2017-140200;26/07/2017;28/07/2017;First Class;CA-12775;Cynthia Arntzen;Consumer;USA;Mes&a;Arizona;85204;West;FUR-TA-10002356;393.165;3;0.5;-204.4458;Anna Andreadi
+US-2017-142811;02/04/2017;07/04/2017;Standard Class;JL-15850;John Lucas;Consumer;USA;Mes&a;Arizona;85204;West;TEC-PH-10003095;87.8;5;0.2;32.925;Anna Andreadi
+US-2017-159499;21/11/2017;23/11/2017;Second Class;EM-14095;Eudokia Martin;Corporate;USA;Phoenix;Arizona;85023;West;OFF-AP-10002867;325.632;6;0.2;28.4928;Anna Andreadi
+US-2017-159499;21/11/2017;23/11/2017;Second Class;EM-14095;Eudokia Martin;Corporate;USA;Phoenix;Arizona;85023;West;TEC-AC-10002718;23.344;2;0.2;-1.459;Anna Andreadi
+US-2017-159499;21/11/2017;23/11/2017;Second Class;EM-14095;Eudokia Martin;Corporate;USA;Phoenix;Arizona;85023;West;OFF-LA-10003121;16.52;5;0.2;5.369;Anna Andreadi
+US-2017-160150;19/07/2017;20/07/2017;First Class;TS-21085;Thais Sissman;Consumer;USA;Phoenix;Arizona;85023;West;OFF-BI-10004352;2.025;1;0.7;-1.35;Anna Andreadi
+US-2018-114230;27/11/2018;01/12/2018;Standard Class;CM-12235;Chris McAfee;Consumer;USA;Phoenix;Arizona;85023;West;OFF-ST-10000876;39.808;4;0.2;3.9808;Anna Andreadi
+US-2018-122245;25/09/2018;30/09/2018;Standard Class;AB-10105;Adrian Barton;Consumer;USA;Phoenix;Arizona;85023;West;FUR-TA-10002356;393.165;3;0.5;-204.4458;Anna Andreadi
+US-2018-159856;18/10/2018;22/10/2018;Standard Class;EP-13915;Emily Phan;Consumer;USA;Tempe;Arizona;85281;West;FUR-CH-10003396;307.92;5;0.2;-34.641;Anna Andreadi
+US-2019-107272;05/11/2019;12/11/2019;Standard Class;TS-21610;Troy Staebel;Consumer;USA;Phoenix;Arizona;85023;West;OFF-BI-10003274;2.388;2;0.7;-1.8308;Anna Andreadi
+US-2019-107272;05/11/2019;12/11/2019;Standard Class;TS-21610;Troy Staebel;Consumer;USA;Phoenix;Arizona;85023;West;OFF-ST-10002974;243.992;7;0.2;30.499;Anna Andreadi
+US-2019-107979;08/06/2019;13/06/2019;Standard Class;FO-14305;Frank Olsen;Consumer;USA;Glend&ale;Arizona;85301;West;TEC-AC-10002006;89.544;7;0.2;12.3123;Anna Andreadi
+US-2019-107979;08/06/2019;13/06/2019;Standard Class;FO-14305;Frank Olsen;Consumer;USA;Glend&ale;Arizona;85301;West;OFF-ST-10002485;35.168;2;0.2;-8.3524;Anna Andreadi
+US-2019-107979;08/06/2019;13/06/2019;Standard Class;FO-14305;Frank Olsen;Consumer;USA;Glend&ale;Arizona;85301;West;OFF-BI-10000778;72.588;2;0.7;-48.392;Anna Andreadi
+US-2019-117331;21/10/2019;28/10/2019;Standard Class;ND-18370;Natalie DeCherney;Consumer;USA;Glend&ale;Arizona;85301;West;OFF-BI-10003984;8.559;1;0.7;-6.5619;Anna Andreadi
+US-2019-120418;11/06/2019;12/06/2019;First Class;BC-11125;Becky Castell;Home Office;USA;Peori&a;Arizona;85345;West;FUR-CH-10001394;280.792;1;0.2;35.099;Anna Andreadi
+US-2019-120418;11/06/2019;12/06/2019;First Class;BC-11125;Becky Castell;Home Office;USA;Peori&a;Arizona;85345;West;OFF-ST-10002370;68.448;4;0.2;7.7004;Anna Andreadi
+US-2019-120418;11/06/2019;12/06/2019;First Class;BC-11125;Becky Castell;Home Office;USA;Peori&a;Arizona;85345;West;OFF-AR-10002956;88.04;5;0.2;6.603;Anna Andreadi
+US-2019-120418;11/06/2019;12/06/2019;First Class;BC-11125;Becky Castell;Home Office;USA;Peori&a;Arizona;85345;West;OFF-AR-10001955;15.872;1;0.2;1.984;Anna Andreadi
+US-2019-120418;11/06/2019;12/06/2019;First Class;BC-11125;Becky Castell;Home Office;USA;Peori&a;Arizona;85345;West;OFF-ST-10001809;215.592;3;0.2;-48.5082;Anna Andreadi
+US-2019-132220;12/11/2019;16/11/2019;Standard Class;DJ-13510;Don Jones;Corporate;USA;Tempe;Arizona;85281;West;TEC-AC-10004227;62.352;6;0.2;-10.9116;Anna Andreadi
+US-2019-139647;11/05/2019;13/05/2019;First Class;TS-21370;Todd Sumrall;Corporate;USA;Phoenix;Arizona;85023;West;FUR-BO-10004467;209.979;7;0.7;-356.9643;Anna Andreadi
+US-2019-142573;18/07/2019;23/07/2019;Standard Class;ML-17410;Maris LaWare;Consumer;USA;Phoenix;Arizona;85023;West;FUR-TA-10001932;801.6;5;0.5;-448.896;Anna Andreadi
+US-2019-142573;18/07/2019;23/07/2019;Standard Class;ML-17410;Maris LaWare;Consumer;USA;Phoenix;Arizona;85023;West;FUR-CH-10004218;161.568;2;0.2;10.098;Anna Andreadi
+US-2019-142573;18/07/2019;23/07/2019;Standard Class;ML-17410;Maris LaWare;Consumer;USA;Phoenix;Arizona;85023;West;OFF-PA-10000246;16.096;2;0.2;5.2312;Anna Andreadi
+US-2019-142573;18/07/2019;23/07/2019;Standard Class;ML-17410;Maris LaWare;Consumer;USA;Phoenix;Arizona;85023;West;OFF-BI-10003350;7.656;4;0.7;-6.1248;Anna Andreadi
+US-2019-142573;18/07/2019;23/07/2019;Standard Class;ML-17410;Maris LaWare;Consumer;USA;Phoenix;Arizona;85023;West;FUR-CH-10000513;311.976;3;0.2;-42.8967;Anna Andreadi
+US-2019-155425;10/11/2019;11/11/2019;First Class;AB-10600;Ann Blume;Corporate;USA;Tucson;Arizona;85705;West;OFF-BI-10001036;38.388;14;0.7;-25.592;Anna Andreadi
+US-2019-155425;10/11/2019;11/11/2019;First Class;AB-10600;Ann Blume;Corporate;USA;Tucson;Arizona;85705;West;TEC-MA-10003183;95.994;2;0.7;-63.996;Anna Andreadi
+US-2019-155425;10/11/2019;11/11/2019;First Class;AB-10600;Ann Blume;Corporate;USA;Tucson;Arizona;85705;West;TEC-AC-10001314;239.952;6;0.2;-35.9928;Anna Andreadi
+US-2019-155425;10/11/2019;11/11/2019;First Class;AB-10600;Ann Blume;Corporate;USA;Tucson;Arizona;85705;West;TEC-PH-10002563;201.584;2;0.2;15.1188;Anna Andreadi
+US-2019-155425;10/11/2019;11/11/2019;First Class;AB-10600;Ann Blume;Corporate;USA;Tucson;Arizona;85705;West;FUR-CH-10003312;899.136;4;0.2;-146.1096;Anna Andreadi
