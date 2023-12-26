@@ -1,33 +1,32 @@
-## Знакомство с [Pentaho](https://www.hitachivantara.com/en-us/products/pentaho-plus-platform/data-integration-analytics/pentaho-community-edition.html)
+В этой папке находятся jobs для Pentaho DI, которые необходимы для домашнего задания модуля 4.4:
+- `staging orders.ktr` - трансформация, которая загружает данные из файлы Superstore в Postgres
+- `dim_tables.ktr` - трансформация, которая трансформирует данные (T в ETL) внутри нашей базы данных
+- `Pentaho Job.kjb` - главный job, который выполняет последовательность трансформаций (оркестрирует нашим data pipeline)
 
-### Практику я начал с видео по следующей [ссылке](https://www.youtube.com/watch?v=K3X9wIC0jO8).  
-В результате чего выполнил план практики
+## Перед первым запуском
+- *[Документацию (English)](https://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps) по всем шагам/трансформациям можно найти на официальной вики*
+- *Также, в качестве шпаргалки, я начал собирать руководство по всем затронутым в обучении шагам Pentaho [тут](https://medium.com/@romangailit/pentaho-di-steps-guide-faada864b3e) (пока черновик)*
 
-- Скачаем sample-superstore.xls из 1 модуля. (1 job)  
-[job_download_samplestore.kjb](sources%2Fintroduction_pentaho%2Fmy_files%2Fjob_download_samplestore.kjb)  
-![job_download_samplestore.png](sources%2Fjpg%2Fjob_download_samplestore.png)
-- Объединим данные из 3 таблиц в одну. (1 transformation)  
-  [transformation_general.ktr](sources%2Fintroduction_pentaho%2Fmy_files%2Ftransformation_general.ktr)  
-  ![transformation_general.png](sources%2Fjpg%2Ftransformation_general.png)
-- Разобьем данные на разные форматы   (2 transformation)
-  - Информацию по продуктам сохраним в JSON формате
-  - Информацию о возвратах сохраним в формате XML
-  - Информацию о заказах разобьем по регионам:
-    - CENTRAL – Одним файлом в формате Excel (xls)
-    - WEST -  Несколько  файлов разбитых по штатам в csv
-    - SOUTH – Один файл формата csv в zip архиве
-    - EAST – текстовый файл с расширением .dat  
-[transformation_for_task.ktr](sources%2Fintroduction_pentaho%2Fmy_files%2Ftransformation_for_task.ktr)  
-![transformation_for_task.png](sources%2Fjpg%2Ftransformation_for_task.png)  
-- Добавляем “ошибки” для большего реализма :D (3 transformation)
-    - WEST – разные названия страны (US, United States, USA), лишние символы в поле City
-    - EAST – добавляем опечатки в названиях городов (сложно прогнозируемые для ручного исправления)
-    - SOUTH – добавляем дубли заказов  
-[transformation_add_errors.ktr](sources%2Fintroduction_pentaho%2Fmy_files%2Ftransformation_add_errors.ktr)  
-![transformation_add_errors.png](sources%2Fjpg%2Ftransformation_add_errors.png)
-- Финальный джоб  
-[final_job.kjb](sources%2Fintroduction_pentaho%2Fmy_files%2Ffinal_job.kjb)  
-![final_job.png](sources%2Fjpg%2Ffinal_job.png)
-### Результаты практики представлены ниже:
-[файлы pentaho]([my_files](sources%2Fintroduction_pentaho%2Fmy_files))    
-[файлы созданные в результате работы пайплайна]([temp](sources%2Ftemp))
+Для того, чтобы Pentaho Data Integration стартовала (под win10), необходимо проделать ряд не очевидных шагов:
+1. Установить [Java 8 выпуска 261](https://downzen.com/en/windows/java-runtime-environment/download/8-update-261/) (ссылка ведет не на официальный сайт, но файл подписан сертификатом Oracle, что позволяет думать, что все в порядке). Экспериментально установлено, что Spoon.bat не стартует с наиболее актуальным на текущий момент 281-м выпуском;
+2. [Задать путь до папки с Java в качестве переменной окружения](https://java-lessons.ru/first-steps/java-home) с названием JAVA_HOME;
+3. Запустить **Spoon.bat**.
+## Типичные ошибки
+Ниже перечислю типичные ошибки, которые возникали у меня во время запуска первых трансформаций в рамках прохождения 4-го модуля курса Data Engineering:
+### 1. Отсутствует необходимая для загрузки данных структура таблицы.
+- Например: *"Relation order_id doesn’t exist"*.
+
+В данном случае вы пытаетесь загрузить в таблицу данные, не соответствующие ей реальной структуре.
+1. Для начала убедитесь, что вы подвели к вашему output-шагу (**Table output**) подготовленные и трансформированные данные. Это позволит системе автоматически определить необходимую структуру конечной таблицы и сгенерировать SQL код, который проведет все необходимые трансформации, включая создание таблицы и определение ее полей;
+2. Прямо через интерфейс Pentaho (по кнопке) выполните данный SQL скрипт (при необходимости, отредактируйте перед выполнением);
+3. Попробуйте прогнать трансформацию заново.
+
+### 2. Ошибка взаимодействия с БД
+Для работы с PostgreSQL (и любыми другими) базами данных необходимо поместить [соответствующий JDBC драйвер](https://jdbc.postgresql.org/download.html) в папку data-integration/lib
+### 3. Не работает Unique Rows
+Необходимо предварительно отсортировать (**Sort rows**, ASC=Y) входящий поток по тому полю, по которому вы планируете отсеивать неуникальные значения.
+## Советы
+1. На шаге вставки данных в БД (**Table output**) проверяйте, что признак **Truncate table** активен, иначе система будет пытаться вставить данные поверх существующих, что приведет к ошибкам.
+2. Обратите внимание, что SQL скрипты выполняются раньше большинства трансформаций, но позже input-шагов
+3. Сортируйте потоки по целевому полю как минимум перед шагами: **Unique Rows** и **Join**
+4. Переименовать, удалить лишние, изменить тип атрибутов можно с помощью **Select values**
