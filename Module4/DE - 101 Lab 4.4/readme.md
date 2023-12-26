@@ -2,4 +2,4 @@
 
 Практику я начал с видео по следующей [ссылке](https://www.youtube.com/watch?v=K3X9wIC0jO8).
 
-картинка ![картинка]()
+картинка ![картинка](https://github.com/SainSinner/DE-101/blob/f7e511f956497db91851409dd0efb18882b897fe/Module4/DE%20-%20101%20Lab%204.4/sources/jpg/practice.png)
