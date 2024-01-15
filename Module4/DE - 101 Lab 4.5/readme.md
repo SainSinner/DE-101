@@ -36,4 +36,10 @@ PASSWORD
 3. [Формирование переменного запроса используя Kettle переменные 8_3_Making flexible queries by using Kettle variables.ktr](08%2F8_3_Making%20flexible%20queries%20by%20using%20Kettle%20variables.ktr)
 4. [Загрузка списка производителей в таблицу базы данных 8_4_Loading a table with a list of manufacturers.ktr](08%2F8_4_Loading%20a%20table%20with%20a%20list%20of%20manufacturers.ktr)
 5. [Вставка или обновление данных в базе данных испорльзуя PDI шаги 8_5_Inserting or updating data by using other PDI steps.ktr](08%2F8_5_Inserting%20or%20updating%20data%20by%20using%20other%20PDI%20steps.ktr)
-6. [Удаление данных из базы данных 8_6_Eliminating data from a database.ktr](08%2F8_6_Eliminating%20data%20from%20a%20database.ktr)
+6. [Удаление данных из базы данных 8_6_Eliminating data from a database.ktr](08%2F8_6_Eliminating%20data%20from%20a%20database.ktr)  
+
+### Упражнения 9 главы книги [Pentaho Data Integration Beginner’s Guide, Second Edition](https://www.programmer-books.com/pentaho-data-integration-beginners-guide-second-edition/)
+1. [Использование Лукапа для создания списка продуктов к покупке 9_1_Using a Database lookup step to create a list of products to buy.ktr](09%2F9_1_Using%20a%20Database%20lookup%20step%20to%20create%20a%20list%20of%20products%20to%20buy.ktr)
+2. [Использование джоина для создания списка предложения к покупке 9_2_Using a Database join step to create a list of suggested products to buy.ktr](09%2F9_2_Using%20a%20Database%20join%20step%20to%20create%20a%20list%20of%20suggested%20products%20to%20buy.ktr)
+3. [Создание dimensional таблицы с использованием лукапа 9_3_loading a region dimension with a Combination lookup_update step.ktr](09%2F9_3_loading%20a%20region%20dimension%20with%20a%20Combination%20lookup_update%20step.ktr)
+4. [Создание исторических данных для отслеживания изменения состояния данных 9_4_Keeping a history of changes in products by using the Dimension lookup_update step.ktr](09%2F9_4_Keeping%20a%20history%20of%20changes%20in%20products%20by%20using%20the%20Dimension%20lookup_update%20step.ktr)
