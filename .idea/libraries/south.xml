@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="south">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Module4/basics of Pentaho by Novichkov Pavel/sources/temp/orders/south/south_orders.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Module4/basics of Pentaho by Novichkov Pavel/sources/temp/orders/south/errors_south_orders.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

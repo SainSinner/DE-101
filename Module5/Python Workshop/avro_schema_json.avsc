@@ -1,0 +1,34 @@
+{
+  "type": "record",
+  "name": "InputRecord",
+  "namespace": "none",
+  "fields": [
+    {
+      "name": "Input",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "record",
+          "name": "TranslationItem",
+          "fields": [
+            {
+              "name": "Text",
+              "type": "string",
+              "doc": "The text to be translated."
+            },
+            {
+              "name": "SourceLanguageCode",
+              "type": "string",
+              "doc": "The source language code, e.g., 'en' for English."
+            },
+            {
+              "name": "TargetLanguageCode",
+              "type": "string",
+              "doc": "The target language code, e.g., 'fr' for French."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
