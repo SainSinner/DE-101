@@ -132,6 +132,12 @@ fire_ts_df = (new_fire_df
 # Returns a new DataFrame
 # Find out all calls where the response time to the fire site was delayed for more than 5 mins
 
+
+# Q-3) Find out all response or delayed times greater than 5 mins?
+# Rename the column Delay - > ReponseDelayedinMins
+# Returns a new DataFrame
+# Find out all calls where the response time to the fire site was delayed for more than 5 mins
+
 # Q-4a) What zip codes accounted for most common calls?
 # Let's investigate what zip codes in San Francisco accounted for most fire calls and what type where they.
 # Filter out by CallType
